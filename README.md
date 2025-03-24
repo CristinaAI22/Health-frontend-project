@@ -1,12 +1,43 @@
-# React + Vite
+# 🥗 Health App – React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Acesta este un proiect de învățare, creat pentru a explora și exersa dezvoltarea unei aplicații web moderne folosind:
 
-Currently, two official plugins are available:
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🔄 SWR pentru fetch de date
+- 🧠 Arhitectură component-based
+- 📱 Abordare mobile-first
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Scopul aplicației
 
-## Expanding the ESLint configuration
+Health App este o aplicație care ajută utilizatorii să:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Calculeze necesarul zilnic de calorii
+- Țină un jurnal cu alimentele consumate
+- Se logheze și să se înregistreze
+- Exploreze componente moderne și logica de stat global
+
+> Proiectul este creat cu scop educativ, pentru a învăța React + Tailwind într-un mod practic.
+
+---
+
+## 🔧 Tehnologii folosite
+
+| Tehnologie   | Rol                             |
+| ------------ | ------------------------------- |
+| React        | UI + logica aplicației          |
+| Vite         | Dev server rapid + build tool   |
+| Tailwind CSS | Stilizare modernă, mobile-first |
+| SWR          | Fetch și cache pentru API-uri   |
+| React Router | Navigație între pagini          |
+
+---
+
+## 🛠️ Instalare locală
+
+```bash
+git clone https://github.com/CristinaAI22/Health-frontend-project.git
+npm install
+npm run dev
+```
