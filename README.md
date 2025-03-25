@@ -20,6 +20,11 @@ Health App este o aplicație care ajută utilizatorii să:
 
 > Proiectul este creat cu scop educativ, pentru a învăța React + Tailwind într-un mod practic.
 
+## 🎨 Design
+
+Aplicația este construită pe baza unui design realizat în Figma:  
+👉 [Vezi designul în Figma](https://www.figma.com/design/DOk8LXwgwUm9xwBPMoBEHe/HEALTH-EN?p=f&node-id=0%3A1)
+
 ---
 
 ## 🔧 Tehnologii folosite
