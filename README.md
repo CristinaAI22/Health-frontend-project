@@ -1,13 +1,6 @@
-# 🥗 Health App – React + Vite + Tailwind
+# 🥗 Health App – React + Vite + Tailwind + Redux Toolkit
 
-Acesta este un proiect de învățare, creat pentru a explora și exersa dezvoltarea unei aplicații web moderne folosind:
-
-- ⚛️ React
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🔄 SWR pentru fetch de date
-- 🧠 Arhitectură component-based
-- 📱 Abordare mobile-first
+Acesta este un proiect de învățare, creat pentru a explora și exersa dezvoltarea unei aplicații web moderne.
 
 ## 🎯 Scopul aplicației
 
@@ -29,13 +22,15 @@ Aplicația este construită pe baza unui design realizat în Figma:
 
 ## 🔧 Tehnologii folosite
 
-| Tehnologie   | Rol                             |
-| ------------ | ------------------------------- |
-| React        | UI + logica aplicației          |
-| Vite         | Dev server rapid + build tool   |
-| Tailwind CSS | Stilizare modernă, mobile-first |
-| SWR          | Fetch și cache pentru API-uri   |
-| React Router | Navigație între pagini          |
+| Tehnologie         | Rol                                         |
+| ------------------ | ------------------------------------------- |
+| **React 19**       | UI interactiv, component-based              |
+| **Vite**           | Build rapid + dev server performant         |
+| **Tailwind CSS 4** | Stilizare modernă, mobile-first             |
+| **Redux Toolkit**  | Management de stare globală + autentificare |
+| **Axios**          | Cereri API către backend-ul Express         |
+| **React Router**   | Navigație între pagini                      |
+| **JWT Auth**       | Autentificare + autorizare cu token-uri     |
 
 ---
 
@@ -43,6 +38,7 @@ Aplicația este construită pe baza unui design realizat în Figma:
 
 ```bash
 git clone https://github.com/CristinaAI22/Health-frontend-project.git
+cd health-app
 npm install
 npm run dev
 ```
